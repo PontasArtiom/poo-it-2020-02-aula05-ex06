@@ -1,0 +1,9 @@
+class TMatriz
+{
+	string x[100][100];
+	int qntdl, qntdc;
+
+	void ler();
+	float transposta();
+	void mostrar();
+}
