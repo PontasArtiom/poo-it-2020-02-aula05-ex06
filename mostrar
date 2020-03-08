@@ -1,0 +1,13 @@
+void TMatriz::mostrar(TMatriz p)
+{
+	cout << "Matriz transposta:";
+
+	for(int l=0;l<qtdl;l++)
+	{
+		for(int c=0;c<qndc;c++)
+		{
+			cout << x[l][c];
+		}
+	cout << endl;
+	}
+}
